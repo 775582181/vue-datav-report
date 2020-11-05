@@ -9,10 +9,8 @@
       </div>
     </template>
     <template v-slot:footer>
-      <div>
-        <span>昨日销售额 </span>
-        <span class="money">￥ 30,000,000</span>
-      </div>
+      <span>昨日销售额 </span>
+      <span class="money">￥ 30,000,000</span>
     </template>
   </common-card>
 </template>
@@ -26,10 +24,11 @@
 </script>
 
 <style scoped>
-  .compare{
+  .compare {
     height: 100%;
     background-color: yellow;
   }
+
   .money {
     margin-left: 5px;
     color: #333;
