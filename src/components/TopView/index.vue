@@ -1,8 +1,8 @@
 <template>
   <div class="top-view">
     <el-row :gutter="20">
-      <el-col :span="6">
-        <el-card shadow="hover">
+      <el-col :span="6" >
+        <el-card shadow="hover" :body-style="{padding:0}">
           鼠标悬停时显示
         </el-card>
       </el-col>
