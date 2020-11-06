@@ -20,7 +20,6 @@
     <template v-slot:footer>
       <span>昨日销售额 </span>
       <span class="emphasis">￥ 30,000,000</span>
-
     </template>
   </common-card>
 </template>
